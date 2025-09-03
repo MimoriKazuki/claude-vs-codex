@@ -1,0 +1,78 @@
+
+> site@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+ ⚠ Port 3002 is in use, trying 3003 instead.
+ ⚠ Port 3003 is in use, trying 3004 instead.
+ ⚠ Port 3004 is in use, trying 3005 instead.
+ ⚠ Port 3005 is in use, trying 3006 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3006
+
+ ✓ Starting...
+ ✓ Ready in 1553ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 781ms (501 modules)
+ GET /article-phased 404 in 907ms
+ ✓ Compiled in 89ms (257 modules)
+ ✓ Compiled / in 214ms (500 modules)
+ GET / 200 in 297ms
+ ✓ Compiled /services in 169ms (510 modules)
+ GET /services 200 in 234ms
+ ✓ Compiled /works in 135ms (519 modules)
+ GET /works 200 in 186ms
+ ✓ Compiled /blog in 88ms (522 modules)
+ GET /blog 200 in 136ms
+ ✓ Compiled /company in 92ms (527 modules)
+ GET /company 200 in 136ms
+ ✓ Compiled /contact in 156ms (533 modules)
+ GET /contact 200 in 205ms
+ GET /services 200 in 26ms
+ GET / 200 in 25ms
+ GET /contact 200 in 70ms
+ GET /services 200 in 28ms
+ GET /works 200 in 36ms
+ ✓ Compiled /works/[slug] in 289ms (533 modules)
+ GET /works/vr-safety-training 200 in 534ms
+ GET /works/ai-line-first-interview 200 in 38ms
+ ✓ Compiled /blog in 61ms (276 modules)
+ GET /blog 200 in 163ms
+ ✓ Compiled /company in 60ms (280 modules)
+ GET /company 200 in 114ms
+ GET /blog 200 in 35ms
+ GET /blog 200 in 28ms
+ GET /blog 200 in 18ms
+ GET /works 200 in 45ms
+ GET /services 200 in 36ms
+ ✓ Compiled /_not-found in 94ms (534 modules)
+ GET /dashboard 404 in 142ms
+ ✓ Compiled / in 68ms (276 modules)
+ GET / 200 in 193ms
+ GET /blog 200 in 41ms
+ GET /blog 200 in 38ms
+ GET /blog 200 in 22ms
+ GET /works 200 in 39ms
+ ✓ Compiled /works/[slug] in 89ms (265 modules)
+ GET /works/ai-line-first-interview 200 in 176ms
+ GET /works/ai-line-first-interview 200 in 37ms
+ GET /works/ai-line-first-interview 200 in 28ms
+ ✓ Compiled /contact in 76ms (269 modules)
+ GET /contact 200 in 155ms
+ ✓ Compiled /services in 83ms (276 modules)
+ GET /services 200 in 140ms
+ GET /works 200 in 38ms
+ ✓ Compiled /company in 73ms (280 modules)
+ GET /company 200 in 126ms
+ GET /blog 200 in 64ms
+ GET /contact 200 in 38ms
+ ✓ Compiled /legal/privacy in 182ms (533 modules)
+ GET /legal/privacy 200 in 225ms
+ GET /legal/privacy 200 in 40ms
+ ✓ Compiled /legal/transmission in 112ms (535 modules)
+ GET /legal/transmission 200 in 191ms
+ ✓ Compiled /legal/terms in 122ms (537 modules)
+ GET /legal/terms 200 in 172ms
+ ✓ Compiled /legal/security in 123ms (539 modules)
+ GET /legal/security 200 in 173ms

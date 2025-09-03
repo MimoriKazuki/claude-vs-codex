@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+  --bg: #0b0f14;
+  --fg: #e6edf3;
+  --muted: #93a1b0;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  color: var(--fg);
+  background: var(--bg);
+}
+
+a { text-underline-offset: 2px; }
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.prose-invert h1, .prose-invert h2, .prose-invert h3 { color: var(--fg); }
+
+.focus-ring { @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand; }
+
