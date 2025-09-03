@@ -1,0 +1,61 @@
+{
+  "works": [
+    {
+      "id": "ai-interview",
+      "title": "AI面接官システム（NextHR）",
+      "summary": "LINE上で動作する一次面接自動化システム",
+      "industry": "人材",
+      "technologies": ["OpenAI API", "LINE Messaging API", "Next.js", "TypeScript"],
+      "period": "3ヶ月",
+      "team": "3名",
+      "kpi": {
+        "label": "採用担当者の稼働削減",
+        "value": "70%",
+        "prefix": "▲"
+      },
+      "challenge": "採用担当者が一次面接に多くの時間を費やしており、本来注力すべき最終選考や候補者フォローに時間を割けない",
+      "solution": "OpenAI APIを活用した自然な対話型面接をLINE上に実装。評価基準の標準化と自動スコアリング機能を搭載",
+      "results": "月間200名の一次面接を自動化。採用担当者の稼働を70%削減し、最終面接の質が向上",
+      "image": "/images/works/ai-interview.jpg",
+      "tags": ["AI", "LINE", "採用DX"]
+    },
+    {
+      "id": "line-crm",
+      "title": "歯科医院向けLINE CRM",
+      "summary": "予約管理と患者コミュニケーションを統合",
+      "industry": "医療",
+      "technologies": ["LINE Mini App", "React", "AWS Lambda", "DynamoDB"],
+      "period": "2ヶ月",
+      "team": "2名",
+      "kpi": {
+        "label": "予約キャンセル率改善",
+        "value": "45%",
+        "prefix": "▲"
+      },
+      "challenge": "電話予約の対応負荷が高く、予約忘れによるキャンセルも多発",
+      "solution": "LINEミニアプリで24時間予約受付を実現。リマインド通知と簡単な予約変更機能を実装",
+      "results": "予約受付の自動化により受付業務を60%削減。リマインド機能でキャンセル率を45%改善",
+      "image": "/images/works/line-crm.jpg",
+      "tags": ["LINE", "医療DX", "CRM"]
+    },
+    {
+      "id": "cost-optimization",
+      "title": "OpenAI APIコスト最適化システム",
+      "summary": "トークン使用量を最適化し運用コストを大幅削減",
+      "industry": "IT",
+      "technologies": ["Python", "OpenAI API", "Redis", "PostgreSQL"],
+      "period": "1ヶ月",
+      "team": "2名",
+      "kpi": {
+        "label": "API利用コスト削減",
+        "value": "65%",
+        "prefix": "▲"
+      },
+      "challenge": "ChatGPT APIの利用が増加し、月額コストが想定を大幅に超過",
+      "solution": "プロンプト最適化、キャッシュ戦略、モデル選択の自動化を実装",
+      "results": "同等の品質を維持しながら、API利用コストを65%削減。ROIが大幅に改善",
+      "image": "/images/works/cost-optimization.jpg",
+      "tags": ["AI", "コスト最適化", "Backend"]
+    }
+  ]
+}
